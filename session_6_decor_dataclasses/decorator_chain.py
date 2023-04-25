@@ -14,6 +14,7 @@ def identity(x):
     return x
 
 print(identity(2))
+
 @addsome
 @square
 def identity(x):

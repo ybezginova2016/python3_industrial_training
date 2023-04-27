@@ -5,7 +5,7 @@ them to the console.
 """
 import json
 
-file = "C:\\Users\\HOME\\PycharmProjects\\python3_industrial_training\\session_6_decor_dataclasses\\number.json"
+file = "/session_6_decor_json\\number.json"
 
 with open(file, 'r') as f:
     numbers = json.load(f)

@@ -8,7 +8,7 @@ of dictionaries, calculates the average value of a specific key.
 
 import json
 
-file = "C:\\Users\\HOME\\PycharmProjects\\python3_industrial_training\\session_6_decor_dataclasses\\data.json"
+file = "/session_6_decor_json\\data.json"
 
 with open(file, "r") as f:
     data = json.load(f)

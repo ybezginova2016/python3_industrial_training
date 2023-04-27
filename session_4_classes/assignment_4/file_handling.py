@@ -77,8 +77,8 @@ for row in rows:
 print(result)
 
 """
-3. Write a Python program that reads a binary file and converts it into a hexadecimal string. The program should output
-the hexadecimal string to a text file.
+3. Write a Python program that reads a binary file and converts it into a hexadecimal string. 
+The program should output the hexadecimal string to a text file.
 """
 # Hello Arsalan! Could you please advise where I can get the binary file?
 
@@ -103,7 +103,7 @@ print(f"The sum of all the numbers in the file is {sum_of_numbers}.")
 removes all the blank lines.
 The modified text should be written back to the file.
 """
-with open('text_file.txt', 'r') as f:
+with open(text_file, 'r') as f:
     lines = f.readlines()
 
 # Remove blank lines

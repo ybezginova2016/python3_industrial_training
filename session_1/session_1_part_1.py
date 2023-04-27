@@ -30,6 +30,7 @@ print(x)
 
 name = 'John'
 age = 30
+
 # concenation is not possbile with different types
 # we can concetinate only the same types - string
 print('My name is ' + name + ' and I am ' + str(age) + ' years old.')

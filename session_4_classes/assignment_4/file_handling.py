@@ -80,7 +80,18 @@ print(result)
 3. Write a Python program that reads a binary file and converts it into a hexadecimal string. 
 The program should output the hexadecimal string to a text file.
 """
-# Hello Arsalan! Could you please advise where I can get the binary file?
+import os
+
+bin_file = "C:\\Users\\HOME\\PycharmProjects\\python3_industrial_training\\session_4_classes\\assignment_4\\example.bin"
+
+hex_file = os.path.join(os.path.dirname(bin_file), "hex_file")
+
+with open(bin_file, "rb") as f:
+    data = f.read()
+    hex_data = data.hex()
+
+with open(hex_file, "w") as f:
+    f.write(hex_data)
 
 """
 4. Write a Python program that reads a text file containing numbers 

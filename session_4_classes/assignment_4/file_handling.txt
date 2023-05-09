@@ -11,3 +11,4 @@ the hexadecimal string to a text file.
 5. Write a Python program that reads a text file and removes all the blank lines.
 The modified text should be written back to the file.
 
+==> see the answers in a separate file 'file_handling.py'

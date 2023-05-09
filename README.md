@@ -12,7 +12,7 @@
 * **Networking Programming**
 * **Data Classes**
 
-### Assignments
+### Assignments:
 * [assignment 1](https://github.com/ybezginova2016/python3_industrial_training/tree/main/session_2/assignments_2)
 
 * [assignemnt 2](https://github.com/ybezginova2016/python3_industrial_training/tree/main/session_4_classes/assignment_4)
